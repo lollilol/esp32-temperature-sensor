@@ -92,7 +92,8 @@ For flashing to work you need to connect a Jumper between `IO0` and `GND`
 
 ## ESP to Thermometer Sensor
 
- ![](attachments/esp-to-ds18b20.svg "left-50 =680x380")The resistor is not inline with the data wire — it bridges across, connecting the data line to 3.3 V. Both dots in the diagram are junctions, not breaks. On a breadboard that means one leg in the row with the yellow wire and the other in the row with the red wire. Place it at the board end of the cable, not at the sensor end. It should pull up the whole length of the line, so it needs to sit near the ESP32 side.
+ ![](attachments/esp-to-ds18b20.svg "left-50 =680x380")
+ The resistor is not inline with the data wire — it bridges across, connecting the data line to 3.3 V. Both dots in the diagram are junctions, not breaks. On a breadboard that means one leg in the row with the yellow wire and the other in the row with the red wire. Place it at the board end of the cable, not at the sensor end. It should pull up the whole length of the line, so it needs to sit near the ESP32 side.
 
 
 
